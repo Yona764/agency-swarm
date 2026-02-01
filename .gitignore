@@ -187,3 +187,5 @@ debug_agency_data.json
 .agency_swarm/
 
 work_context.md
+.vercel
+.env*.local
