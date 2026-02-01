@@ -1,0 +1,11 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python main.py"
+healthcheckPath = "/docs"
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[[envs]]
+PYTHON_VERSION = "3.12"
